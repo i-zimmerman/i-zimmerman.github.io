@@ -1,0 +1,257 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Alex Zimmerman — Senior Frontend / Fullstack Engineer</title>
+<meta name="description" content="Senior Frontend/Fullstack Engineer with 7+ years shipping production web apps. React, TypeScript, Node.js, FastAPI, LLM-powered features. Led a 0→1 product pivot at an AI startup. Open to new opportunities.">
+<meta name="keywords" content="frontend engineer, fullstack engineer, React developer, TypeScript, senior software engineer, remote, hire">
+<meta name="author" content="Alex Zimmerman">
+<meta name="robots" content="index, follow">
+<link rel="canonical" href="https://i-zimmerman.github.io/">
+
+<!-- Open Graph -->
+<meta property="og:type" content="profile">
+<meta property="og:title" content="Alex Zimmerman — Senior Frontend / Fullstack Engineer">
+<meta property="og:description" content="7+ years in production. React + TypeScript core, Python/FastAPI and LLM features. Open to senior frontend/fullstack roles — remote or relocation.">
+<meta property="og:url" content="https://i-zimmerman.github.io/">
+<meta property="og:image" content="https://i-zimmerman.github.io/assets/photo.jpg">
+<meta property="og:site_name" content="Alex Zimmerman">
+
+<!-- Twitter -->
+<meta name="twitter:card" content="summary">
+<meta name="twitter:title" content="Alex Zimmerman — Senior Frontend / Fullstack Engineer">
+<meta name="twitter:description" content="7+ years in production. React + TypeScript core, Python/FastAPI and LLM features. Open to new opportunities.">
+<meta name="twitter:image" content="https://i-zimmerman.github.io/assets/photo.jpg">
+
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='6' fill='%230d1117'/%3E%3Ctext x='16' y='22' font-family='monospace' font-size='16' font-weight='bold' fill='%233fb950' text-anchor='middle'%3EAZ%3C/text%3E%3C/svg%3E">
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;500;600&display=swap" rel="stylesheet">
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Person",
+  "name": "Alex Zimmerman",
+  "jobTitle": "Senior Frontend / Fullstack Engineer",
+  "email": "mailto:alex.zimmerman.info@gmail.com",
+  "url": "https://i-zimmerman.github.io/",
+  "image": "https://i-zimmerman.github.io/assets/photo.jpg",
+  "sameAs": [
+    "https://www.linkedin.com/in/i-zimmerman/",
+    "https://github.com/i-zimmerman",
+    "https://t.me/az1mmerman"
+  ],
+  "knowsAbout": ["React", "TypeScript", "JavaScript", "Node.js", "Next.js", "FastAPI", "PostgreSQL", "AWS", "LLM integration", "Frontend architecture"],
+  "alumniOf": {
+    "@type": "CollegeOrUniversity",
+    "name": "Bologna University"
+  },
+  "worksFor": {
+    "@type": "Organization",
+    "name": "Rask.AI"
+  }
+}
+</script>
+
+<style>
+:root {
+  --bg: #0d1117;
+  --surface: #161b22;
+  --border: #30363d;
+  --border-soft: #21262d;
+  --text: #e6edf3;
+  --muted: #a8b3bf;
+  --faint: #7d8590;
+  --blue: #58a6ff;
+  --green: #3fb950;
+  --purple: #d2a8ff;
+  --string: #a5d6ff;
+}
+* { box-sizing: border-box; }
+html { scroll-behavior: smooth; }
+body {
+  margin: 0;
+  background: var(--bg);
+  color: var(--text);
+  font-family: 'IBM Plex Mono', ui-monospace, SFMono-Regular, Menlo, monospace;
+  -webkit-font-smoothing: antialiased;
+}
+a { color: inherit; }
+.wrap { max-width: 960px; margin: 0 auto; }
+section, header { padding: 56px 40px; border-bottom: 1px solid var(--border-soft); }
+h2 { font-size: 13px; color: var(--faint); margin: 0 0 32px; font-weight: 400; }
+h2 span { color: var(--green); }
+
+/* hero */
+header { padding-top: 80px; }
+.prompt { font-size: 13px; color: var(--faint); margin-bottom: 36px; }
+.prompt b { color: var(--green); font-weight: 400; }
+.hero-row { display: flex; gap: 48px; align-items: flex-start; }
+h1 { font-size: 46px; line-height: 1.15; margin: 0 0 16px; font-weight: 600; letter-spacing: -0.02em; }
+.role { font-size: 16px; color: var(--blue); margin: 0 0 24px; }
+.summary { font-size: 14px; line-height: 1.85; color: var(--muted); margin: 0; max-width: 540px; }
+.status { display: flex; align-items: center; gap: 8px; margin-top: 28px; font-size: 13px; color: var(--green); }
+.dot { width: 8px; height: 8px; border-radius: 50%; background: var(--green); display: inline-block; }
+.avatar { width: 168px; height: 168px; object-fit: cover; border-radius: 8px; border: 1px solid var(--border); flex-shrink: 0; }
+.links { display: flex; gap: 12px; margin-top: 40px; flex-wrap: wrap; }
+.btn {
+  font-size: 13px; color: var(--text); text-decoration: none;
+  border: 1px solid var(--border); border-radius: 6px; padding: 8px 16px;
+  background: var(--surface); transition: border-color 0.15s, background 0.15s;
+}
+.btn:hover { border-color: var(--faint); background: #1c2129; }
+.btn-primary { color: var(--bg); background: var(--green); border: none; font-weight: 600; }
+.btn-primary:hover { background: #4cc961; }
+
+/* projects */
+.grid { display: grid; grid-template-columns: 1fr 1fr; gap: 16px; }
+.card { border: 1px solid var(--border); border-radius: 8px; padding: 24px; background: var(--surface); }
+.card h3 { font-size: 16px; margin: 0 0 10px; font-weight: 600; color: var(--blue); }
+.card p { font-size: 13px; line-height: 1.8; color: var(--muted); margin: 0 0 14px; }
+.tags { display: flex; gap: 6px; flex-wrap: wrap; }
+.tag { font-size: 11px; color: var(--blue); background: rgba(88,166,255,0.1); border-radius: 20px; padding: 3px 10px; }
+
+/* experience */
+.job { display: grid; grid-template-columns: 150px 1fr; gap: 24px; padding: 20px 0; border-bottom: 1px solid var(--border-soft); }
+.job:last-child { border-bottom: none; }
+.job-date { font-size: 12px; color: var(--faint); }
+.job-co { font-size: 14px; font-weight: 600; }
+.job-title { font-size: 13px; color: var(--faint); }
+.job p { font-size: 13px; line-height: 1.7; color: var(--muted); margin: 6px 0 0; }
+
+/* skills */
+.two-col { display: grid; grid-template-columns: 1fr 1fr; gap: 48px; }
+.code { font-size: 13px; line-height: 2.2; color: var(--muted); }
+.kw { color: var(--purple); }
+.str { color: var(--string); }
+.edu p { font-size: 13px; line-height: 1.8; color: var(--muted); margin: 0 0 14px; }
+.edu .sub { color: var(--faint); }
+
+/* cta */
+.cta { text-align: center; border-bottom: none; padding-bottom: 80px; }
+.cta h2 { font-size: 28px; font-weight: 600; margin: 0 0 28px; color: var(--text); }
+.cta .prompt { margin-bottom: 12px; }
+
+footer { text-align: center; font-size: 12px; color: var(--faint); padding: 24px 40px 48px; }
+
+@media (max-width: 720px) {
+  section, header { padding: 40px 24px; }
+  header { padding-top: 56px; }
+  h1 { font-size: 32px; }
+  .hero-row { flex-direction: column-reverse; gap: 28px; }
+  .avatar { width: 120px; height: 120px; }
+  .grid, .two-col { grid-template-columns: 1fr; }
+  .job { grid-template-columns: 1fr; gap: 4px; }
+}
+</style>
+</head>
+<body>
+
+<div class="wrap">
+
+<header>
+  <p class="prompt">~/alex-zimmerman <b>$</b> whoami</p>
+  <div class="hero-row">
+    <div>
+      <h1>Alex Zimmerman</h1>
+      <p class="role">senior frontend / fullstack engineer</p>
+      <p class="summary">7+ years in production. Led a 0→1 product pivot at an AI video-localization startup. React + TypeScript core, Python/FastAPI and LLM features on the side. Ships end-to-end: architecture → deploy → measurable impact.</p>
+      <p class="status"><span class="dot"></span>status: open_to_work</p>
+    </div>
+    <img class="avatar" src="assets/photo.jpg" alt="Alex Zimmerman — Senior Frontend / Fullstack Engineer" width="168" height="168">
+  </div>
+  <nav class="links" aria-label="Contact links">
+    <a class="btn" href="mailto:alex.zimmerman.info@gmail.com">email</a>
+    <a class="btn" href="https://github.com/i-zimmerman" rel="me">github</a>
+    <a class="btn" href="https://www.linkedin.com/in/i-zimmerman/" rel="me">linkedin</a>
+    <a class="btn" href="https://t.me/az1mmerman" rel="me">telegram</a>
+    <a class="btn btn-primary" href="assets/Alex_Zimmerman_Resume.pdf" download>resume.pdf ↓</a>
+  </nav>
+</header>
+
+<main>
+
+<section id="work" aria-label="Selected work">
+  <h2><span>##</span> selected_work</h2>
+  <div class="grid">
+    <article class="card">
+      <h3>scale-ads</h3>
+      <p>0→1 business pivot at Rask.AI, built as lead engineer. React 19 + strict TS + FSD, Cognito auth flows, AI chat on OpenAI, Zustand/TanStack stack.</p>
+      <div class="tags"><span class="tag">react19</span><span class="tag">typescript</span><span class="tag">cognito</span></div>
+    </article>
+    <article class="card">
+      <h3>recorder-extension</h3>
+      <p>Chrome extension for in-browser screen/camera recording (Loom replacement). Manifest V3, service worker, WebRTC MediaRecorder, cross-context messaging.</p>
+      <div class="tags"><span class="tag">manifest-v3</span><span class="tag">webrtc</span></div>
+    </article>
+    <article class="card">
+      <h3>attribution-fix</h3>
+      <p>Server-side attribution fallback surviving ad blockers; enriched Mixpanel with GA4 data. Google Smart Bidding recalibrated ~2× upward → bigger paid budgets.</p>
+      <div class="tags"><span class="tag">ga4</span><span class="tag">mixpanel</span></div>
+    </article>
+    <article class="card">
+      <h3>boosters</h3>
+      <p>Monetization redesign: premium features extracted into independently deployable modules with granular pricing, feature-gating, and funnel instrumentation.</p>
+      <div class="tags"><span class="tag">architecture</span><span class="tag">pricing</span></div>
+    </article>
+  </div>
+</section>
+
+<section id="experience" aria-label="Experience">
+  <h2><span>##</span> experience</h2>
+  <div class="job">
+    <div class="job-date">2025 — now</div>
+    <div><span class="job-co">Rask.AI</span> <span class="job-title">— senior product engineer</span><p>AI video localization. Lead on new product line, multi-tenant enterprise architecture, analytics infra.</p></div>
+  </div>
+  <div class="job">
+    <div class="job-date">2022 — 2025</div>
+    <div><span class="job-co">Zalando</span> <span class="job-title">— frontend engineer</span><p>10+ internal apps, TDDs, accessibility guidelines, alerting/logging/tracing, onboarding.</p></div>
+  </div>
+  <div class="job">
+    <div class="job-date">2021 — 2022</div>
+    <div><span class="job-co">Sravni.ru</span> <span class="job-title">— frontend engineer</span><p>Micro-frontends, design system integration, ads migration, mentoring.</p></div>
+  </div>
+  <div class="job">
+    <div class="job-date">2020 — 2021</div>
+    <div><span class="job-co">Carl-drive / Freelance</span> <span class="job-title">— frontend engineer</span><p>CRM tooling, site redesign, client dashboards.</p></div>
+  </div>
+</section>
+
+<section id="skills" aria-label="Skills and education">
+  <div class="two-col">
+    <div>
+      <h2><span>##</span> stack</h2>
+      <div class="code">
+        <div><span class="kw">const</span> core = [<span class="str">"React 18/19"</span>, <span class="str">"TypeScript"</span>, <span class="str">"Next.js"</span>]</div>
+        <div><span class="kw">const</span> state = [<span class="str">"Zustand"</span>, <span class="str">"TanStack"</span>, <span class="str">"Redux"</span>]</div>
+        <div><span class="kw">const</span> backend = [<span class="str">"Node"</span>, <span class="str">"FastAPI"</span>, <span class="str">"PostgreSQL"</span>]</div>
+        <div><span class="kw">const</span> ai = [<span class="str">"OpenAI"</span>, <span class="str">"Anthropic"</span>]</div>
+        <div><span class="kw">const</span> ops = [<span class="str">"Docker"</span>, <span class="str">"K8s"</span>, <span class="str">"AWS"</span>, <span class="str">"CI/CD"</span>]</div>
+        <div><span class="kw">const</span> testing = [<span class="str">"Jest"</span>, <span class="str">"Playwright"</span>, <span class="str">"TDD"</span>]</div>
+      </div>
+    </div>
+    <div class="edu">
+      <h2><span>##</span> education</h2>
+      <p>B.A. Business Management &amp; Economics<br><span class="sub">Bologna University, Italy · 2019</span></p>
+      <p>MITx — Intro to CS (Python)<br><span class="sub">+ 9 Udemy certs · JS / React / Testing / CSS</span></p>
+    </div>
+  </div>
+</section>
+
+<section class="cta" aria-label="Contact">
+  <p class="prompt">~/alex-zimmerman <b>$</b> ./hire_me.sh</p>
+  <h2>Let's talk.</h2>
+  <a class="btn btn-primary" href="mailto:alex.zimmerman.info@gmail.com" style="font-size: 14px; padding: 14px 32px;">alex.zimmerman.info@gmail.com</a>
+</section>
+
+</main>
+
+<footer>© 2026 Alex Zimmerman</footer>
+
+</div>
+
+</body>
+</html>
